@@ -1,0 +1,152 @@
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 116863
+ID Anggota    : 129882
+ID Buku       : 107064
+Tanggal Pinjam: 26/11/2025
+Tanggal Kembali: -
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 111877
+ID Anggota    : 129882
+ID Buku       : 120070
+Tanggal Pinjam: 3-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 112484
+ID Anggota    : 129882
+ID Buku       : 107064
+Tanggal Pinjam: 3-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 108307
+ID Anggota    : 129882
+ID Buku       : 127997
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 113006
+ID Anggota    : 129882
+ID Buku       : 107064
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 123217
+ID Anggota    : 129882
+ID Buku       : 120070
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 124696
+ID Anggota    : 129882
+ID Buku       : 107064
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 128507
+ID Anggota    : 129882
+ID Buku       : 120070
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali: 11-12-2025
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 116868
+ID Anggota    : 114355
+ID Buku       : 107064
+Tanggal Pinjam: 4-12-2025
+Tanggal Kembali Expected: 11-12-2025
+Tanggal Kembali Actual: 4-12-2025
+Status        : 0
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 131493
+ID Anggota    : 129664
+ID Buku       : 127997
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 103051
+ID Anggota    : 129664
+ID Buku       : 120070
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 106222
+ID Anggota    : 129664
+ID Buku       : 127997
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 127167
+ID Anggota    : 109406
+ID Buku       : 107064
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 132681
+ID Anggota    : 109406
+ID Buku       : 107064
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 2
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 101737
+ID Anggota    : 129882
+ID Buku       : 107064
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 12-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0
+
+===== DATA PEMINJAMAN =====
+ID Peminjaman : 104236
+ID Anggota    : 129882
+ID Buku       : 120070
+Tanggal Pinjam: 5-12-2025
+Tanggal Kembali Expected: 19-12-2025
+Tanggal Kembali Actual: 0-0-0
+Status        : 1
+Denda         : 0

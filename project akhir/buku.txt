@@ -1,0 +1,35 @@
+
+===== DATA BUKU =====
+===== DATA BUKU =====
+===== DATA BUKU =====
+===== DATA BUKU =====
+Kategori     : ilmu sosial
+ID Buku      : 127997
+ISBN         : 9786022443209
+Judul Buku   : Pendidikan Pancasila da Kewarganegaraan 
+Pengarang    : Abdul Waidl, Ali Usman, Ahmad Asroni, Hatim Gazali, Tedi Kholiluddin
+Penerbit     : Pusat Kurikulum dan Perbukuan Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi. Jalan Gunung Sahari Raya No. 4 Jakarta Pusat
+Tahun Terbit : 2021
+Stok         : 98
+
+===== DATA BUKU =====
+Kategori     : teknologi / ilmu terapan
+ID Buku      : 107064
+ISBN         : 9789792857559
+Judul Buku   : Koding dan Kecerdasan Artifisial
+Pengarang    : Dhian Fendina Hapsari, Bayu Pratama
+Penerbit     : PT Mancananjaya Cermelang, Kotak Pos 181, Klaten 57438, Indonesia
+Tahun Terbit : 2025
+Stok         : 96
+
+===== DATA BUKU =====
+Kategori     : bahasa
+ID Buku      : 120070
+ISBN         : 9786022443247
+Judul Buku   : Cerdas Cergas Berbahasa dan Bersastra Indonesia
+Pengarang    : Fadillah Tri Aulia, Sefi Indra Gumilar
+Penerbit     : Pusat Kurikulum dan Perbukuan Badan Penelitian dan Pengembangan dan Perbukuan Jalan Gunung Sahari Raya No. 4 Jakarta pusat
+Tahun Terbit : 2021
+Stok         : 96
+
+===== DATA BUKU =====

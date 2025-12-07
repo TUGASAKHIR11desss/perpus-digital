@@ -1,0 +1,63 @@
+
+==========================================
+registrasi berhasil
+ID kamu        :113219
+PW             :ndbsjdka
+Kode Anggota   : 2009623001
+Status         : 0
+
+==========================================
+registrasi berhasil
+ID kamu        :100234
+PW             :abcde
+Kode Anggota   : 200954001
+Status         : 0
+
+==========================================
+registrasi berhasil
+ID kamu        :103129
+PW             :nini
+Kode Anggota   : 20091110001
+Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 129882
+PW             : alma
+Kode Anggota   : 200947001
+Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 114355
+PW             : alma
+Kode Anggota   : 200947002
+Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 127473
+PW             : jihan
+Kode Anggota   : 200932001
+Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 129664
+PW             : alma
+Kode Anggota   : 200947003
+Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 107946
+PW             : alma
+Kode Anggota   : 200947004
+Status         : 0
+
+==========================================
+registrasi berhasil
+ID kamu        : 109406
+PW             : imupp
+Kode Anggota   : 200999001
+Status         : 1
