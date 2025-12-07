@@ -8,6 +8,10 @@
 #include <cstdlib>
 #include <ctime>
 #include <cstdio>
+#include <regex>
+#include <iomanip>
+#include <chrono>
+#include <sstream>
 using namespace std;
 
 // ========== STRUCT ==========
@@ -33,6 +37,43 @@ struct Peminjaman {
     int status; // 0 = sudah kembali, 1 = active loan, 2 = pending approval
     int denda;
 };
+
+// ========== UTILITY FUNCTIONS ==========
+bool isValidEmail(const string& email) {
+    regex emailRegex(R"([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})");
+    return regex_match(email, emailRegex);
+}
+
+string simpleHash(const string& input, const string& salt = "salt123") {
+    string salted = input + salt;
+    hash<string> hasher;
+    return to_string(hasher(salted));
+}
+
+bool confirmAction(const string& message) {
+    char choice;
+    cout << message << " (y/n): ";
+    cin >> choice;
+    return tolower(choice) == 'y';
+}
+
+chrono::system_clock::time_point parseDate(int day, int month, int year) {
+    tm tm = {};
+    tm.tm_year = year - 1900;
+    tm.tm_mon = month - 1;
+    tm.tm_mday = day;
+    tm.tm_hour = 0;
+    tm.tm_min = 0;
+    tm.tm_sec = 0;
+    return chrono::system_clock::from_time_t(mktime(&tm));
+}
+
+int calculateDaysDifference(int day1, int month1, int year1, int day2, int month2, int year2) {
+    auto tp1 = parseDate(day1, month1, year1);
+    auto tp2 = parseDate(day2, month2, year2);
+    auto diff = chrono::duration_cast<chrono::hours>(tp2 - tp1);
+    return diff.count() / 24;
+}
 
 // ========== HELPERS PETUGAS ==========
 vector<Petugas> loadPetugas() {
@@ -125,9 +166,16 @@ void registerAnggota() {
     do { cout << "Masukkan Tanggal lahir: "; cin >> a.tanggal; maxH = jumlahHari(a.bulan, a.tahun); }
     while (a.tanggal < 1 || a.tanggal > maxH);
 
-    cout << "Masukkan Email: "; cin >> a.email;
+    do {
+        cout << "Masukkan Email: "; cin >> a.email;
+        if (!isValidEmail(a.email)) {
+            cout << "Email tidak valid. Harus dalam format yang benar (contoh: user@example.com).\n";
+        }
+    } while (!isValidEmail(a.email));
+
     cout << "Masukkan Alamat: "; cin.ignore(); getline(cin, a.alamat);
     cout << "Masukkan Password: "; cin >> a.password;
+    a.password = simpleHash(a.password); // Hash the password
 
     // generate unique ID
     string ID;
@@ -181,7 +229,9 @@ void verifikasiAnggota() {
     for (int i = 0; i < (int)semua.size(); ++i) {
         if (semua[i].find("Status") != string::npos && semua[i].find("0") != string::npos) {
             int start = max(0, i - 3);
-            for (int j = start; j <= i; ++j) cout << semua[j] << endl;
+            for (int j = start; j <= i; ++j) {
+                if (semua[j].find("PW") == string::npos) cout << semua[j] << endl;
+            }
             cout << "-----------------------------\n";
         }
     }
@@ -691,6 +741,7 @@ void loginAnggota() {
     cout << "Masukkan Nama: "; getline(cin, a.nama);
     cout << "Masukkan ID: "; cin >> a.ID;
     cout << "Masukkan Password: "; cin >> a.password;
+    a.password = simpleHash(a.password); // Hash the input password
 
     ifstream f("anggota.txt"); if (!f) { cout << "Belum ada data anggota.\n"; return; }
     string ln; bool found=false;

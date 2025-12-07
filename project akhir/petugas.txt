@@ -68,3 +68,10 @@ nama = almaa
 email = esemkitabisa@gmail.com
 password = esemkitabisa
 
+===== DATA PETUGAS =====
+id_petugas = 128786
+username = almalia
+nama = alma lia
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+

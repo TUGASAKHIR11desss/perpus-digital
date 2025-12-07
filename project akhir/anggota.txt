@@ -61,3 +61,17 @@ ID kamu        : 109406
 PW             : imupp
 Kode Anggota   : 200999001
 Status         : 1
+
+==========================================
+registrasi berhasil
+ID kamu        : 103852
+PW             : 9923751691325888439
+Kode Anggota   : 200999002
+Status         : 0
+
+==========================================
+registrasi berhasil
+ID kamu        : 105067
+PW             : 18245747901165915825
+Kode Anggota   : 200888001
+Status         : 1

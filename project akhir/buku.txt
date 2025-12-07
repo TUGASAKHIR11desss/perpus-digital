@@ -33,3 +33,12 @@ Tahun Terbit : 2021
 Stok         : 96
 
 ===== DATA BUKU =====
+
+===== DATA BUKU =====
+ID Buku      : 129498
+ISBN         : 1234567890123
+Judul Buku   : omagaa
+Pengarang    : aku
+Penerbit     : akujuga
+Tahun Terbit : 2009
+Stok         : 60
