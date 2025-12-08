@@ -1,0 +1,77 @@
+===== DATA PETUGAS =====
+id_petugas = 107684
+username = jdjsh
+nama = asmm
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 102696
+username = abcd
+nama = 123
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 103248
+username = coco
+nama = caca
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 103704
+username = nanik
+nama = nanik
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 113887
+username = sasa
+nama = sasa
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 121722
+username = sisi
+nama = sisi
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 128570
+username = salma
+nama = salma
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 100017
+username = jihan
+nama = jihan
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 103238
+username = alma
+nama = alma
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 123775
+username = alma
+nama = almaa
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
+===== DATA PETUGAS =====
+id_petugas = 128786
+username = almalia
+nama = alma lia
+email = esemkitabisa@gmail.com
+password = esemkitabisa
+
